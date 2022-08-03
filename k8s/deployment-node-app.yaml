@@ -15,7 +15,7 @@ spec:
         app: node-app
     spec:
       containers:
-        - image: gbrotas/eks-app:1.2.0
+        - image: gbrotas/eks-app:1.3.0
           name: node-app
           resources:
             requests:
