@@ -1,8 +1,10 @@
 # how to run
 ```bash
-cd k8s
+cd infra
 eksctl create cluster --config-file=cluster.yaml
+cd ..
 
+cd k8s
 kubectl apply -f deployment-node-app.yaml
 kubectl apply -f service-node-app.yaml
 
