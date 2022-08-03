@@ -26,4 +26,4 @@ jobs:
         with:
           context: "{{defaultContext}}:app"
           push: true
-          tags: gbrotas/eks-app:1.1.0
+          tags: gbrotas/eks-app:1.2.0
