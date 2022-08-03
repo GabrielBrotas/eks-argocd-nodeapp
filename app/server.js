@@ -3,11 +3,11 @@ const { hostname } = require("os")
 
 app.get('/', (req, res) => {
     console.log("got here")
-    
+
     return res.status(200).json({ 
         success: true, 
         metadata: hostname(),
-        version: "1.0.0"
+        version: "1.1.0"
     })
 })
 
